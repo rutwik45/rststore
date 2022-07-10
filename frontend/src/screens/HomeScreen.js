@@ -18,7 +18,7 @@ const HomeScreen=()=>{
     return(
         <>
             <Heading as='h2' mb='8' fontSize='3xl'>
-                Latest Product
+                Latest Products
             </Heading>
 
             {loading ?(
