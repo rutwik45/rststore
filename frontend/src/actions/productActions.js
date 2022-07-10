@@ -1,5 +1,4 @@
 import axios from 'axios'
-import { useState } from 'react';
 import {PRODUCT_LIST_REQUEST,
     PRODUCT_LIST_SUCCESS,
     PRODUCT_LIST_FAIL,
