@@ -26,7 +26,7 @@ const HomeScreen=()=>{
             ):error ?(
                 <Message type='error'>{error}</Message>
             ):(
-                <Grid templateColumns='1fr 1fr 1fr 1fr' gap='6'>
+                <Grid templateColumns='1fr 1fr 1fr 1fr' gap='6' >
                 {products.map((product)=>(
                     <ProductCard product={product}/>
                 ))}
